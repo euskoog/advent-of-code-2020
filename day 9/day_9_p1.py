@@ -41,7 +41,7 @@ def main():
             xmas.append(int(line))
 
     weakness = analyze_xmas(xmas)
-    print(weakness)
+    print("Weakness value:", weakness)
 
 
 if __name__ == "__main__":
